@@ -1,0 +1,133 @@
+body {
+    background: radial-gradient(hsl(0,100%,100%) 0%,hsla(0,0%,0%,0.1) 100%) fixed;
+}
+
+.app {
+    width: 800px;
+    margin: auto auto;
+    font-family: 'Raleway',Helvetica Neue,Helvetica,Arial;
+}
+
+.app .title {
+    width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.30);
+    margin: 50px 0px 70px 0px;
+}
+
+.app .tweet {
+    width: 100%;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50px 5px 5px 50px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.app .tweet:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.app .tweet .username {
+    display: inline-block;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    margin-right: 10px;
+}
+
+.app .tweet .content {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    font-size: 15px;
+    text-align: left;
+}
+
+.app .tweet .timestamp {
+    position: absolute;
+    top: 8px;
+    right: 13px;
+    font-weight: 600;
+    font-size: 13px;
+    text-shadow: 0px 0px 5px rgba(116, 116, 116, 0.12);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.app .tweet .thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.47);
+}
+
+.app .tweet .header {
+    position: absolute;
+    left: 100px;
+    top: 5px;
+}
+
+.app .tweet .retweetContainer {
+    display: inline-block;
+    top: 2px;
+}
+
+.app .tweet .retweetContainer .retweet {
+
+}
+
+.app .tweet .retweetContainer .count {
+    font-size: 12px;
+    top: -3px;
+}
+
+.app .tweet .favoriteContainer {
+    display: inline-block;
+    top: 2px;
+}
+
+.app .tweet .favoriteContainer .favorite {
+
+}
+
+.app .tweet .favoriteContainer .count {
+    font-size: 12px;
+    top: -3px;
+}
+
+.app .tweet .content a {
+    text-decoration: none;
+    color: rgb(36, 30, 170);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.app .tweet .content a:hover {
+    color: rgb(85, 113, 170);
+    text-shadow: 0px 0px 10px rgba(11, 39, 170, 0.55);
+}
+
+
+.fb_iframe_widget {
+    position: absolute!important;
+    display: block!important;
+    left: 10px;
+    top: -40px;
+}
+
+.twitter-share-button {
+    position: absolute!important;
+    top: -10px;
+    left: 10px;
+}
